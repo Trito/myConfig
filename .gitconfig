@@ -1,0 +1,7 @@
+[user]
+	name = Reto Eberle
+	email = reto.eberle@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
