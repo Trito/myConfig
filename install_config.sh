@@ -4,8 +4,9 @@
 #sudo ./install_config.sh
 
 echo "link .vimrc"
-ln -svi ~/LinuxGNU/myConfig/.vimrc ~
-ln -svi ~/LinuxGNU/myConfig/.gitconfig ~
+ln -svi $PWD/.vimrc ~
+ln -svi $PWD/.gitconfig ~
+ln -svi $PWD/.tmux.conf ~
 
 # script based on infos from:
  # https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789
