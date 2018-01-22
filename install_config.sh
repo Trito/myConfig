@@ -3,7 +3,8 @@
 #chmod a+x vim_install.sh -> Gives everyone execute permissions
 #sudo ./install_config.sh
 
-echo "link .vimrc"
+echo "link the dotfiles"
+ln -svi $PWD/.bashrc ~
 ln -svi $PWD/.vimrc ~
 ln -svi $PWD/.gitconfig ~
 ln -svi $PWD/.tmux.conf ~
