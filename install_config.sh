@@ -10,6 +10,7 @@ mkdir -p ~/.vim/pack
 ln -svi $PWD/.vim/pack/gitsubm_mnged ~/.vim/pack
 ln -svi $PWD/.gitconfig ~
 ln -svi $PWD/.tmux.conf ~
+ln -svi $PWD/.inputrc ~
 
 # script based on infos from:
  # https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789
