@@ -114,6 +114,13 @@ if ! shopt -oq posix; then
 fi
 
 # reberle settings
+
+# bash completion for git
+# file from https://github.com/git/contrib/completion/git-completion.bash
+if [ -f ~/git-completion.bash ]; then
+    source ~/git-completion.bash
+fi
+
 set -o vi
 
 # some more ls aliases
