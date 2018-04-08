@@ -116,3 +116,10 @@ fi
 # reberle settings
 set -o vi
 
+# some more ls aliases
+alias ..='cl ..'
+alias ...='cl ../..'
+
+alias h=history
+
+alias v=vim
