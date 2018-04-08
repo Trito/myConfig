@@ -123,3 +123,8 @@ alias ...='cl ../..'
 alias h=history
 
 alias v=vim
+
+# runs cd and ls when cl is typed
+function cl { cd $1; ls;}
+
+
