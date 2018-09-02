@@ -130,6 +130,7 @@ alias ...='cl ../..'
 alias h=history
 
 alias v=vim
+alias pdf=epdfview
 
 # runs cd and ls when cl is typed
 function cl { cd $1; ls;}
